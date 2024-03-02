@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TouchKeysPreset format="0.1">
+  <KeyboardSegments>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="0"/>
+        <VALUE name="mode" val="3"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="0"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="0"/>
+        <VALUE name="usesKeyboardPedals" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="0"/>
+        <VALUE name="pitchWheelRange" val="2.0"/>
+        <VALUE name="retransmitMaxPolyphony" val="8"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0.0"/>
+        <VALUE name="inputRangeMax" val="0.0"/>
+        <VALUE name="inputRangeCenter" val="0.0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2.0"/>
+        <VALUE name="bendThresholdSemitones" val="0.2000000029802322"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1000000014901161"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1000000014901161"/>
+        <VALUE name="fixedModeBufferDistance" val="0.0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+    </Segment>
+  </KeyboardSegments>
+</TouchKeysPreset>
